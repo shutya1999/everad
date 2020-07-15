@@ -112,6 +112,7 @@
 .action-link h3{
     font: 20px var(--Roboto);
     color: #444444;
+    margin-left: 17px;
 }
 .action-link span{
     font-weight: bold;
@@ -151,16 +152,112 @@
 .telephone-form{
     flex-basis: 50%;
 }
-.jopa img{
+.background-phone{
+    text-align: center;
     position: relative;
 }
 .content-form{
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 55px;
+    left: 50%;
+    text-align: center;
     /*margin: 0 auto;*/
     width: 100%;
+    max-width: 220px;
+    /*background: #ff6b00;*/
+    transform: translateX(-50%);
 }
+.sale h3{
+    font: 20px var(--Roboto);
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.sale span{
+    display: block;
+    color: #ff6b00;
+}
+.price{
+    display: flex;
+    margin-top: 20px;
+}
+.old-price, .new-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 50%;
+    position: relative;
+}
+.old-price h4, .new-price h4{
+    font: 14px var(--Roboto);
+    font-weight: bold;
+}
+.old-price h4{
+     color: #666666;
+}
+.new-price h4{
+    color: black;
+}
+.old-price h1{
+    font: 34px var(--Roboto);
+    font-weight: lighter;
+    margin: 10px 0 10px 0;
+}
+.new-price h1{
+    font: 34px var(--Roboto);
+    font-weight: bold;
+    background-color: #ffbf02;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+}
+.old-price h1:before, .old-price h1:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 90%;
+    background-color: #ea7845;
+    top: 47px;
+    left: 3px;
+}
+.old-price h1:before{
+    transform: rotate(15deg);
+}
+.old-price h1:after{
+    transform: rotate(-15deg);
+}
+.form input[type="text"]{
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: #eef2f7;
+    padding: 25px 0;
+    margin: 5px 0;
+    border-radius: 100px;
+
+}
+.form input[type="text"]::placeholder {
+    background: url("../img/name-form.svg") no-repeat;
+    background-position: 20px;
+    padding-left: 55px;
+    /*background-repeat: no-repeat;*/
+}
+#btn{
+    border: none;
+    width: 100%;
+    background: #ffc002;
+    border-radius: 100px;
+    padding: 10px 0;
+}
+#btn h2{
+    font: 28px var(--Roboto);
+    font-weight: bold;
+}
+#btn span{
+    display: block;
+    font-size: 16px;
+}
+
+
 
 
 
