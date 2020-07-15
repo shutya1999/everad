@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {--Roboto: 'Roboto', sans-serif;}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 1000px;
+    background-image: url("../img/background.png");
+    /*background-size: 100%;*/
+    background-position: top;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.container{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+.top-header{
+    display: flex;
+    align-items: center;
+    padding: 15px 0 0 300px;
+}
+.legs{
+    position: absolute;
+    left: 0;
+    top: -100px;
+}
+.legs img{
+    width: 340px;
+    transform: scale(-1, 1) rotate(35deg);
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h2{
+    font: 22px var(--Roboto);
+    font-weight: bold;
+    margin-left: 16px;
+}
+.advantages{
+    margin-left: 65px;
+}
+.advantages-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.advantages-link{
+    display: flex;
+    margin: 0 20px;
+}
+.advantages-link h3{
+    font: 16px var(--Roboto);
+    font-style: italic;
+    color: #666666;
+}
+.advantages-link object{
+    margin-right: 12px;
+}
+.main-header{
+    display: flex;
+    margin-top: 60px;
+}
+.test{
+    flex-basis: 45%;
+}
+.info{
+    flex-basis: 55%;
+    display: flex;
+}
+.slogan{
+    flex-basis: 50%;
+}
+.slogan h1{
+    font: 44px var(--Roboto);
+    font-weight: bold;
+}
+.slogan h2{
+    font: 34px var(--Roboto);
+}
+.slogan span{
+    position: relative;
+}
+.under-orange:before, .under-green:before{
+    content: '';
+    height: 5px;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.under-orange:before{
+    background-color: #ff6b00;
+}
+.under-green:before{
+    background-color: #a7c93d;
+}
+
+.action-list{
+    list-style: none;
+}
+.actions{
+    margin-top: 45px;
+}
+.action-link{
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.action-link h3{
+    font: 20px var(--Roboto);
+    color: #444444;
+}
+.action-link span{
+    font-weight: bold;
+}
+.actions .under-orange:before, .under-green:before{
+    height: 3px;
+}
+.point-1, .point-2, .point-3{
+    position: relative;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+.point-1 img, .point-2 img, .point-3 img{
+    width: 60px;
+}
+.point-1:before, .point-2:before, .point-3:before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    font-size: 20px;
+    font-family: var(--Roboto);
+    font-weight: bold;
+}
+.point-1:before{
+    content: '2в1';
+}
+.point-2:before{
+    content: '1';
+}
+.point-3:before{
+    content: '2';
+}
+.telephone-form{
+    flex-basis: 50%;
+}
+.jopa img{
+    position: relative;
+}
+.content-form{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*margin: 0 auto;*/
+    width: 100%;
+}
+
+
+
+
