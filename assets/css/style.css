@@ -57,7 +57,7 @@
     font-style: italic;
     color: #666666;
 }
-.advantages-link object{
+.advantages-link img{
     margin-right: 12px;
 }
 .main-header{
@@ -133,14 +133,19 @@
 }
 .action-link{
     /*display: flex;*/
+    height: 70px;
     align-items: center;
     margin-top: 45px;
+    position: relative;
 }
 
 .action-link h3{
     font: 20px var(--Roboto);
     color: #444444;
     margin-left: 87px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .action-link span{
     font-weight: bold;
